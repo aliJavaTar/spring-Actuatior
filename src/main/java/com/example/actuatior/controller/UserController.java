@@ -32,7 +32,6 @@ public class UserController {
     }
 
     @DeleteMapping
-    @ResponseBody
     public ResponseEntity<Void> delete(@RequestParam int id) {
         userService.delete(id);
         return ResponseEntity.noContent().build();
