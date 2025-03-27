@@ -1,6 +1,6 @@
 package com.example.actuatior.application;
 
-import com.example.actuatior.UserNotFoundException;
+import com.example.actuatior.controller.UserNotFoundException;
 import com.example.actuatior.entity.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

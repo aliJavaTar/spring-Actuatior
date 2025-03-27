@@ -1,4 +1,4 @@
-package com.example.actuatior;
+package com.example.actuatior.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
